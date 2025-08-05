@@ -140,7 +140,7 @@ function login (){
      let userInputPass = userEmailEl.value;
      let message = "";
      for(let i = 0 ;i < users.length; i++){
-          let userObj = users[i]
+          let userObj = users[i];
           if(userInputMail === userObj.email && userInputPass === userObj.password)
      }
 }
